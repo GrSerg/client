@@ -7,20 +7,20 @@
     <x>0</x>
     <y>0</y>
     <width>629</width>
-    <height>645</height>
+    <height>723</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
       <y>10</y>
       <width>611</width>
-      <height>591</height>
+      <height>671</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_2">
@@ -107,6 +107,44 @@
           </item>
          </layout>
         </item>
+        <item row="6" column="4">
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>Комментарии</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListView" name="listView_3"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item alignment="Qt::AlignBottom">
+             <widget class="QTextEdit" name="textEdit">
+              <property name="autoFillBackground">
+               <bool>false</bool>
+              </property>
+              <property name="documentTitle">
+               <string/>
+              </property>
+              <property name="placeholderText">
+               <string>Напишите комментарий</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="addComment">
+              <property name="text">
+               <string>Отправить</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
         <item row="3" column="4">
          <layout class="QVBoxLayout" name="verticalLayout">
           <item>
@@ -160,40 +198,16 @@
          </layout>
         </item>
         <item row="5" column="4">
-         <layout class="QVBoxLayout" name="verticalLayout_4">
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
           <item>
-           <widget class="QLabel" name="label_6">
+           <widget class="QLabel" name="label_7">
             <property name="text">
-             <string>Комментарии</string>
+             <string>Срок выполнения</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QListView" name="listView_3"/>
-          </item>
-          <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_4">
-            <item alignment="Qt::AlignBottom">
-             <widget class="QTextEdit" name="textEdit">
-              <property name="autoFillBackground">
-               <bool>false</bool>
-              </property>
-              <property name="documentTitle">
-               <string/>
-              </property>
-              <property name="placeholderText">
-               <string>Напишите комментарий</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QPushButton" name="addComment">
-              <property name="text">
-               <string>Отправить</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
+           <widget class="QLineEdit" name="lineEdit_4"/>
           </item>
          </layout>
         </item>
