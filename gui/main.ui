@@ -103,7 +103,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QListView" name="listView_2"/>
+           <widget class="QListView" name="viewDescription"/>
           </item>
          </layout>
         </item>
@@ -117,12 +117,12 @@
            </widget>
           </item>
           <item>
-           <widget class="QListView" name="listView_3"/>
+           <widget class="QListView" name="viewComments"/>
           </item>
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_4">
             <item alignment="Qt::AlignBottom">
-             <widget class="QTextEdit" name="textEdit">
+             <widget class="QTextEdit" name="textComment">
               <property name="autoFillBackground">
                <bool>false</bool>
               </property>
@@ -155,7 +155,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QListView" name="listView"/>
+           <widget class="QListView" name="viewPeple"/>
           </item>
          </layout>
         </item>
@@ -169,7 +169,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="lineEdit_3"/>
+           <widget class="QLineEdit" name="viewMaker"/>
           </item>
          </layout>
         </item>
@@ -178,12 +178,12 @@
           <item>
            <widget class="QLabel" name="label">
             <property name="text">
-             <string>Название</string>
+             <string>Тема</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="lineEdit"/>
+           <widget class="QLineEdit" name="viewTopic"/>
           </item>
           <item>
            <widget class="QLabel" name="label_2">
@@ -193,7 +193,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="lineEdit_2"/>
+           <widget class="QLineEdit" name="viewStatus"/>
           </item>
          </layout>
         </item>
@@ -207,7 +207,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="lineEdit_4"/>
+           <widget class="QLineEdit" name="viewDate"/>
           </item>
          </layout>
         </item>
